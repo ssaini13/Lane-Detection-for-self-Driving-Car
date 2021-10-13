@@ -2,12 +2,6 @@
 
 Python implementation of lane detection using image processing algorithms in OpenCV.
 
-## Requirements
-
-- OpenCV (cv2)
-- matplotlib
-- numpy
-
 ## Dataset
 
 This project demonstrates lane detection using a single image from a road dataset. The lanes are marked by a solid white line (on the right) and alternating short line segments with dots (on the left).
@@ -18,7 +12,7 @@ This project demonstrates lane detection using a single image from a road datase
 ## Image processing pipeline
 
 1. Loading of test image
-2. Detect edges (gray scaling, Gaussian smoothing, Canny edge detection)
+2. Detect edges (Gray scaling, Gaussian smoothing, Canny edge detection)
 3. Define region of interest
 4. Apply Hough transforms
 
